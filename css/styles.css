@@ -10,7 +10,7 @@
 body{
     font-size: 12px;
     overflow-x: hidden;
-    padding: 2% 6%;
+    padding: 0 6%;
 }
 .d-flex{
     display: flex;
@@ -38,4 +38,53 @@ header{
 }
 .profile img.cart {
     margin: 32px;
+}
+
+/*  Landing Section  */
+
+.landing {
+    justify-content:space-between;
+    padding: 4%;
+}
+.product-img {
+    width: 500px;
+    height: 500px;
+    border-radius: 16px;
+}
+.product-info {
+    padding: 4% 8%;
+}
+.company-label {
+    color: var(--orange);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.product-name{
+    font-size: 42px;
+    margin: 10px 0;
+}
+.product-description {
+    color: gray;
+    opacity: 0.8;
+    font-size: 14px;
+    word-spacing: 4px;
+}
+.pricing {
+    padding: 32px 0;
+}
+.price{
+    margin-right:8px;
+    font-size: 21px;
+}
+.discount {
+    background-color: var(--pale-orange);
+    padding: 4px 10px;
+    border-radius: 8px;
+    color: var(--orange);
+}
+.pre-price{
+    margin-right:8px;
+    font-size: 16px;
+    color: gray;
+    opacity: 0.4;
 }
