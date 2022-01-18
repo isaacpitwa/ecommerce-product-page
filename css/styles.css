@@ -70,7 +70,8 @@ header{
     word-spacing: 4px;
 }
 .pricing {
-    padding: 32px 0;
+    padding-top: 32px ;
+    padding-bottom: 8px;
 }
 .price{
     margin-right:8px;
@@ -78,8 +79,8 @@ header{
 }
 .discount {
     background-color: var(--pale-orange);
-    padding: 4px 10px;
-    border-radius: 8px;
+    padding: 5px 10px;
+    border-radius: 4px;
     color: var(--orange);
 }
 .pre-price{
@@ -87,4 +88,45 @@ header{
     font-size: 16px;
     color: gray;
     opacity: 0.4;
+    text-decoration: line-through;
+}
+.action-btns {
+    padding: 24px 0;
+}
+
+.quatity-btn {
+    background-color: #f4f4f4;
+    padding: 12px 16px; 
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+.minus-btn {
+    padding:0 21px;
+    cursor: pointer;
+}
+.plus-btn{
+    padding: 0 21px;
+    cursor: pointer;
+}
+.quatity-btn label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cart-btn {
+    background-color: var(--orange);
+    padding: 12px  6rem; 
+    margin-left: 21px;
+    border-radius: 8px;
+    color: white;
+}
+.cart-btn  img {
+    width: 20px;
+    height: 20px;
+    margin: 0 4px;
+}
+.cart-btn label {
+    font-weight: 400;
+    margin-left: 8px;
 }
