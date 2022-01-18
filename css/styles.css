@@ -132,3 +132,27 @@ header{
     font-weight: 400;
     margin-left: 8px;
 }
+
+/* Thumbnail section */
+
+.product-thumbnails{
+    margin: 21px 0;
+}
+.thumbnail img{
+   width: 100px;
+    height: 100px;   
+    border-radius: 8px;
+}
+
+.thumbnail{
+    width: 100px;   
+    height: 100px;
+    margin: 0 8px;
+    border-radius: 10px;
+}
+.product-thumbnails .active {
+    border: 2px solid hsl(26, 100%, 55%);
+}
+.product-thumbnails .active img {
+    opacity: 0.5;
+}
