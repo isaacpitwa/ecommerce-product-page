@@ -20,7 +20,7 @@ body{
     align-items: center;
 }
 header{
-    padding: 0.5% 0.5%;
+    padding: 0 0.5%;
     border-bottom: 1px solid #f4f4f4;
 }
 .nav-list{
@@ -28,7 +28,10 @@ header{
     list-style: none;
 }
 .nav-item{
-    margin: 12px 24px;
+    padding: 12px 24px;
+}
+.nav-item:hover{
+    border-bottom: 3px solid var(--orange);
 }
 .nav-link {
     text-decoration: none;
