@@ -156,6 +156,7 @@ header{
 .product-thumbnails .active img {
     opacity: 0.5;
 }
-.cart-btn:hover,.thumbnail:hover {
+.cart-btn:hover,.thumbnail:hover, .cart-btn label:hover{
     cursor: pointer;
+    opacity: 0.7;
 }
